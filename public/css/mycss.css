@@ -1,0 +1,214 @@
+#body{
+    background-image: url("../Book.jpg");
+    height: 670px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*.container-fluid #navbar {*/
+/*    background-color: transparent;*/
+/*}*/
+
+/*.container-fluid #navbar .navbar .container-fluid .navbar-brand {*/
+/*    justify-content: left;*/
+/*    margin-left: 5%;*/
+/*    margin-right: 0;*/
+/*    font-size: 30px;*/
+/*}*/
+
+/*.container-fluid #navbar .navbar .container-fluid .login a{*/
+/*    margin-right: 40px;*/
+/*}*/
+
+/*.container-fluid #navbar .navbar .container-fluid .login {*/
+/*    margin-right: 70px;*/
+/*}*/
+
+.container-fluid #home {
+    margin-top: 15%;
+}
+
+.container-fluid .or {
+    float: left;
+    margin-left: 8%;
+    font-size: 30px;
+}
+
+.container-fluid #add {
+    text-align: center;
+    margin-left: 13%;
+    font-size: 25px;
+    float: left;
+}
+
+.container-fluid #read {
+    text-align: center;
+    margin-right: 19%;
+    font-size: 25px;
+    float: right;
+}
+
+#body .reviews{
+    /*border: 2px solid black;*/
+    margin: 27% 0 0 30%;
+}
+
+#body .reviews a{
+    border: 2px solid black;
+    margin: 0 0 0 10%;
+}
+
+/*#login {*/
+/*    background-color: #b2cfdd;;*/
+/*    margin-top: 150px;*/
+/*    border: 2px solid black;*/
+/*    border-radius: 10%;*/
+/*    width: 30%;*/
+/*    height: 60%;*/
+/*}*/
+
+/*#login h2 {*/
+/*    !*margin-top: ;*!*/
+/*    !*margin-left: 40%;*!*/
+/*    margin: 5% 0 7% 40%;*/
+/*}*/
+
+/*#login .email, .password {*/
+/*    margin-left: 10%;*/
+/*    margin-right: 10%;*/
+/*}*/
+
+/*#login .submit {*/
+/*    padding-left: 35%;*/
+/*    padding-right: 35%;*/
+/*    margin: 5% 0 0 10%;*/
+/*    background-color: #4b935a;*/
+/*}*/
+
+body {
+    background-color: #e7ebdf;
+}
+
+/*#login .captcha {*/
+/*    margin: 8% 0 3% 20%;*/
+/*}*/
+
+.genre-heading {
+    margin: 5% 0 3% 0;
+    text-align: center;
+}
+
+.book-row {
+    margin: 2% 33% 0 33%;
+}
+
+.book-row .card {
+    text-align: center;
+    padding: 30% 0 30% 0;
+}
+
+.book-row .card1 {
+    background-color: #684b68;
+}
+
+.book-row .card2 {
+    background-color: #d7126d;
+}
+
+.book-row .card3 {
+    background-color: #6e50a7;
+}
+
+.book-row .card4 {
+    background-color: #2c9d63;
+}
+
+.book-row a {
+    text-decoration: none;
+}
+
+#addBooks {
+    border: 2px solid black;
+    width: 50%;
+    margin-top: 3%;
+    border-radius: 5%;
+}
+
+#addBooks h1 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#addBooks .book-submit {
+    margin-top: 2%;
+    padding: 1% 20% 1% 20%;
+    margin-left: 28%;
+}
+
+.backHome a{
+    text-decoration: none;
+}
+.backHome {
+    margin: 3% 0 0 46%;
+}
+
+#showBooks h1 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#showBooks {
+    margin: 1% 25% 0 25%;
+}
+
+#showBooks td a{
+    text-decoration: none;
+}
+
+#review {
+    border: 2px solid black;
+    margin: 1% 35% 0 35%;
+}
+
+.add-review a {
+    /*justify-content: center;*/
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#search-form {
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 20% 5% 20%;
+}
+
+#search-form h2 {
+    margin: 10px 0 30px 0;
+}
+
+#search-form .g-3 {
+    justify-content: center;
+}
+
+#search-form .buttons {
+    margin-top: 3%;
+}
+
+#search-form .buttons .btn {
+    margin: 0 20px 0 20px;
+    /*font-size: 20px;*/
+    --bs-btn-padding-y: .4rem;
+    --bs-btn-padding-x: 4rem;
+    --bs-btn-font-size: 0.9rem;
+}
+
+#showBooks h2 {
+    margin-bottom: 30px;
+}
+
+#showBooks .pagination {
+    justify-content: center;
+    margin-top: 30px;
+}
