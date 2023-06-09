@@ -33,7 +33,6 @@
                 <option {{ old('genre') == 'Science fiction' ? 'selected' : ''}} value="Science fiction">Science fiction</option>
             </select>
             <span style="color: red"> @error('genre'){{ $message }}@enderror</span>
-            {{--            <input type="text" name="genre" class="form-control" id="exampleInputPassword1">--}}
         </div>
         <div class="mb-3">
             <label class="form-label">Number of Chapters</label>
@@ -41,7 +40,6 @@
         </div>
         <div class="mb-3">
             <label class="form-label">Review</label>
-{{--                        <textarea placeholder="Write less than 300 words" cols="87" rows="5"> </textarea>--}}
             <textarea cols="120" style="max-width:100%;" placeholder="Write less than 300 words" name="review">{{ old('review') }}</textarea>
             <span style="color: red"> @error('review'){{ $message }}@enderror</span>
         </div>

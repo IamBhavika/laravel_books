@@ -8,7 +8,6 @@
 <div id="search-form">
     <form action="{{ url('/') }}/search-book" method="post">
         @csrf
-{{--        @method('PUT')--}}
         <h2> Search Book</h2>
         <div class="row g-3 align-items-center">
             <div class="col-5">
