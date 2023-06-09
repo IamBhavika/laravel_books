@@ -6,8 +6,6 @@
 <div id="review" class="card text-center">
     <div class="card-body">
         <h5 class="card-title">{{ $books->review }}</h5>
-        {{--        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>--}}
-        {{--        <a href="#" class="btn btn-primary">Go somewhere</a>--}}
     </div>
     <div class="card-footer text-body-secondary">
         by:- {{ $books->user->name }}

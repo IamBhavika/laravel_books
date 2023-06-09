@@ -74,14 +74,7 @@ class BooksController extends Controller
 
     public function showReviews($id)
     {
-//        $user = [];
         $bookUser = BookUser::where('book_id', $id)->get();
-//        foreach ($bookUser as $book) {
-//            $userId = $book->id;
-//            $user = User::find($userId);
-//        }
-//        $userId = $bookUser->user_id;
-//        $user = User::find($userId);
 
         return view('books.reviews', compact('bookUser', 'id'));
     }
@@ -96,7 +89,6 @@ class BooksController extends Controller
     public function addingReview($id)
     {
         $book = Book::find($id);
-//        dd($book->id);
 
         return view('books.adding-review-form', compact('book'));
     }
@@ -104,7 +96,6 @@ class BooksController extends Controller
     public function saveReview(Request $request)
     {
         $bookId = $request->input('bookId');
-//        dd($bookId);
 
         $request->validate([
             'review' => 'required',
@@ -151,8 +142,6 @@ class BooksController extends Controller
         } else {
             $books = Book::where('author','LIKE', '%' . $author . '%')->paginate(3);
         }
-
-//        session()->put('books', $books);
 
         if (url()->previous() == 'http://127.0.0.1:8000/add-review') {
             return redirect('add-review')->with(['books' => $books, 'title' => $title, 'author' => $author]);
